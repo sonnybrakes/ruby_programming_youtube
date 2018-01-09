@@ -26,7 +26,13 @@
 # be careful using floats, float arithmetic is a little bit off
 
 # Everything is Ruby is considered an object, as in object oriented programming
-puts 1.class
-puts 1.0.class
-puts "A String".class
-puts [1, 1.0, "A String"].class
+# puts 1.class
+# puts 1.0.class
+# puts "A String".class
+# puts [1, 1.0, "A String"].class
+
+# CONSTANTS must start with an uppercase letter, CONSTANTS can be changed, but Ruby will raise a warning when it is changed and it will be changed"
+A_CONSTANT = 3.14
+puts A_CONSTANT
+A_CONSTANT = 3.1416
+puts A_CONSTANT
