@@ -20,7 +20,13 @@
 # puts "#{num_one} - #{num_two} = #{num_one - num_two}"
 
 # Floats - 14 decimal place digits of accuracy
-big_float = 1.12345678901234
-puts (big_float + 0.00000000000005).to_s
+# big_float = 1.12345678901234
+# puts (big_float + 0.00000000000005).to_s
 # answer when run = 1.1234567890123899 and should be 1.12345678901239
 # be careful using floats, float arithmetic is a little bit off
+
+# Everything is Ruby is considered an object, as in object oriented programming
+puts 1.class
+puts 1.0.class
+puts "A String".class
+puts [1, 1.0, "A String"].class
