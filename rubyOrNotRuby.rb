@@ -14,7 +14,13 @@
 # puts "6 % 4 = " + (6%4).to_s
 
 # Integers
-num_one = 1.000
-num_two = 0.999
+# num_one = 1.000
+# num_two = 0.999
 # puts num_one.to_s + " - " + num_two.to_s + " = " + (num_one - num_two).to_s
-puts "#{num_one} - #{num_two} = #{num_one - num_two}"
+# puts "#{num_one} - #{num_two} = #{num_one - num_two}"
+
+# Floats - 14 decimal place digits of accuracy
+big_float = 1.12345678901234
+puts (big_float + 0.00000000000005).to_s
+# answer when run = 1.1234567890123899 and should be 1.12345678901239
+# be careful using floats, float arithmetic is a little bit off
