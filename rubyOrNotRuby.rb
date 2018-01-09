@@ -7,8 +7,13 @@
 # puts "#{first_num} + #{second_num} = #{first_num + second_num}"
 
 # Five Main Arithmetic Operators
-puts "6 + 4 = " + (6+4).to_s
-puts "6 - 4 = " + (6-4).to_s
-puts "6 * 4 = " + (6*4).to_s
-puts "6 / 4 = " + (6/4).to_s
-puts "6 % 4 = " + (6%4).to_s
+# puts "6 + 4 = " + (6+4).to_s
+# puts "6 - 4 = " + (6-4).to_s
+# puts "6 * 4 = " + (6*4).to_s
+# puts "6 / 4 = " + (6/4).to_s
+# puts "6 % 4 = " + (6%4).to_s
+
+# Integers
+num_one = 1.000
+num_two = 0.999
+puts num_one.to_s + " - " + num_two.to_s + " = " + (num_one - num_two).to_s
