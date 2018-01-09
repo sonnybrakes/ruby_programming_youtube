@@ -16,4 +16,5 @@
 # Integers
 num_one = 1.000
 num_two = 0.999
-puts num_one.to_s + " - " + num_two.to_s + " = " + (num_one - num_two).to_s
+# puts num_one.to_s + " - " + num_two.to_s + " = " + (num_one - num_two).to_s
+puts "#{num_one} - #{num_two} = #{num_one - num_two}"
