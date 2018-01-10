@@ -51,3 +51,4 @@
 # concatenation
 # puts "Data From File #{data_from_file}"
 # interpolation
+load "rubyOrNotRuby2.rb"
