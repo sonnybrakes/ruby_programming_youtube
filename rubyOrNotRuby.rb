@@ -57,12 +57,12 @@ load "rubyOrNotRuby2.rb"
 
 # Conditional Operators ==, <=, >=, <, >, !=
 # Logical Operators && and, || or, ! not
-age = 12
-if (age >= 5) && (age <= 6)
-  puts "You're in Kindergarten"
-elsif age >= 7 and age <= 13
-  puts "You're in Middle School"
-  puts "Yeah!"
-else
-  puts "Stay home"
-end
+# age = 12
+
+# truth tables, true and false, true or false, logical operators
+puts "true && false = " + (true && false).to_s
+puts "true && false = #{true && false}"
+puts "true || false = " + (true || false).to_s
+puts "true || false = #{true || false}"
+puts "!false = " + (!false).to_s
+puts "!false = #{!false}"
