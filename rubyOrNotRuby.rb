@@ -38,16 +38,16 @@
 # puts A_CONSTANT
 
 # Advanced concept - returning a File Object
-write_handler = File.new("file.rb", "w")
+# write_handler = File.new("file.rb", "w")
 # write_handler is a variable
 # file.rb will be created if it doesn't already exist
-write_handler.puts("Randon Text", 1).to_s
+# write_handler.puts("Randon Text", 1).to_s
 # puts "Random Text" String and 1 Fixnum into file.rb File
-write_handler.close
+# write_handler.close
 # .close closes file.rb File
-data_from_file = File.read("file.rb")
+# data_from_file = File.read("file.rb")
 # data_from_file is a variable, .read is a method, "file.rb" is the file being read
-puts "Data From File: " + data_from_file
+# puts "Data From File: " + data_from_file
 # concatenation
-puts "Data From File #{data_from_file}"
+# puts "Data From File #{data_from_file}"
 # interpolation
