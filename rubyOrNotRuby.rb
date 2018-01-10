@@ -60,9 +60,22 @@ load "rubyOrNotRuby2.rb"
 # age = 12
 
 # truth tables, true and false, true or false, logical operators
-puts "true && false = " + (true && false).to_s
-puts "true && false = #{true && false}"
-puts "true || false = " + (true || false).to_s
-puts "true || false = #{true || false}"
-puts "!false = " + (!false).to_s
-puts "!false = #{!false}"
+# puts "true && false = " + (true && false).to_s
+# puts "true && false = #{true && false}"
+# puts "true || false = " + (true || false).to_s
+# puts "true || false = #{true || false}"
+# puts "!false = " + (!false).to_s
+# puts "!false = #{!false}"
+
+# Comparision Operators
+# less than -1, equal 0, or greater than 1
+puts "5 <=> 10 = #{5 <=> 10}"
+puts "5 <=> 5 = " + (5 <=> 5).to_s
+puts "10 <=> 5 = #{(10 <=> 5)}"
+# unless
+age = 12
+unless age > 4
+  puts "No School"
+else
+  puts "Go To School"
+end
